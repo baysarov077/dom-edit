@@ -6,6 +6,7 @@ block.style.width = '300px'
 block.style.margin = 'auto'
 block.style.border = '1px solid red'
 block.style.borderRadius = '10px'
+block.style.paddingLeft = '10px'
 block.append(text)
 
 document.body.prepend(block)
@@ -32,6 +33,8 @@ link3.href = 'https://instagram.com'
 link1.target = '_blank'
 link2.target = '_blank'
 link3.target = '_blank'
+
+
 
 listBlock.append(link1, link2, link3)
 block.after(listBlock)
